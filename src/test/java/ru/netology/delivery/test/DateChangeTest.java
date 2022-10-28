@@ -19,11 +19,6 @@ class DeliveryTest {
     }
 
     @Test
-    void test1() {
-
-    }
-
-    @Test
     @DisplayName("Should successful plan and replan meeting")
     void shouldSuccessfulPlanAndReplanMeeting() {
         var validUser = DataGenerator.Registration.generateUser("ru");
